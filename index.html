@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feriados Nacionais</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Feriados Nacionais</h1>
+
+        <div class="formulario">
+            <input type="number" id="ano" placeholder="Digite o ano">
+            <button id="consultar">Consultar</button>
+        </div>
+
+        <div id="mensagem"></div>
+
+        <div id="proximo"></div>
+
+        <h2 id="total"></h2>
+
+        <div class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Dia da semana</th>
+                        <th>Feriado</th>
+                    </tr>
+                </thead>
+
+                <tbody id="lista-feriados"></tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
